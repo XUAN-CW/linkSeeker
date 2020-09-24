@@ -17,7 +17,7 @@ import java.io.IOException;
  */
 public class GetHTMLByURL {
 
-    public static String getHTML(String url){
+    public String getHTML(String url){
         String html=null;
         //1.生成httpclient，相当于该打开一个浏览器
         CloseableHttpClient httpClient = HttpClients.createDefault();
