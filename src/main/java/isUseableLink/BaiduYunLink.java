@@ -1,10 +1,14 @@
+package isUseableLink;
+
+import crawler.GetHTMLByURL;
+
 /**
  * @author XUAN
  * @date 2020/9/24 - 21:34
  * @references
  * @purpose 判断百度云链接是否可用
  */
-public class BaiduYunLink implements isUseableLink{
+public class BaiduYunLink implements isUseableLink {
 
     public boolean judge(String baiduYunLink) {
         boolean available=false;
