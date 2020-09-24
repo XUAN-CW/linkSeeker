@@ -3,3 +3,4 @@
 src/main/java/Main.java
 *.class
 .idea/uiDesigner.xml
+.idea/workspace.xml
